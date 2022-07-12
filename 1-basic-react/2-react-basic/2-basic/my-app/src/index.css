@@ -1,0 +1,24 @@
+.btn {
+  padding: 12px 24px;
+  background-color: steelblue;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: steelblue;
+  color: white;
+  padding: 12px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap:24px;
+}
+
+li {
+  font-size: 18px;
+}
