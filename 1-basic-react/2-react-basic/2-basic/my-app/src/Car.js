@@ -1,10 +1,17 @@
 import React from 'react'
 
 const Car = (props) => {
-    console.log(props)
+
+    const {model, color} = props
   return (
-    <div>Car: {props.model} and its color is {props.color}</div>
+    <>
+    <div>Car: {model} and its color is {color}</div>
+    
+    </>
   )
+  
 }
+
+
 
 export default Car
