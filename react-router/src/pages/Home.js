@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import Navbar from '../components/Navbar'
-import { Outlet } from 'react-router-dom'
-import Footer from '../components/Footer'
+import Blog from './Blog'
+import About from './About'
+import Contact from './Contact'
 const Home = () => {
 const[count, setCount] = useState(0)
 let increse = ()=>{
@@ -16,16 +16,17 @@ let reset = () =>{
 }
   return (
     <>
-    <Navbar />
     <div className='main'>
     <h1>Coutner APP</h1>
     <p>{count}</p>
     <button onClick={increse}>+</button>
     <button onClick={reset}> Reset</button>
     <button onClick={decrease}>-</button>
-    <Outlet />
-    <Footer />
+    
     </div>
+    <About />
+    <Blog />
+    <Contact />
     </>
   )
 }
