@@ -1,0 +1,17 @@
+.nav {
+    background-color: steelblue;
+    padding: 12px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap:24px;
+}
+
+a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+
+}
