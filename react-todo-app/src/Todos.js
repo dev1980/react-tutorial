@@ -7,14 +7,12 @@ const Todos = () => {
 
     const inputChangeHandler = (e) =>{
         let newInput = e.target.value;
-        console.log(newInput)
         setTodo(newInput)
     }
 
     const onSubmitHandler = (e) =>{
         e.preventDefault();
         let newData = [...data, todo]
-        console.log(newData)
         setData(newData);
         setTodo("")
     }
