@@ -1,12 +1,18 @@
-import UseState from "./components/UseState";
+// import UseState from "./components/UseState";
+// import UseReducer from "./components/UseReducer";
+import UseEffect from "./components/UseEffect";
 
 function App() {
   return (
     <div className="App">
-      <h1>useState tutorial</h1>
-      <UseState />
+      <h1>React hooks exercise</h1>
+      {/* <UseState />
+     <UseReducer />  */}
+  <UseEffect />
     </div>
   );
 }
+
+
 
 export default App;
