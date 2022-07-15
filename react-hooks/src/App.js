@@ -8,7 +8,11 @@ function App() {
       <h1>React hooks exercise</h1>
       {/* <UseState />
      <UseReducer />  */}
-  <UseEffect />
+
+     <div className="card-flex">
+     <UseEffect />
+     </div>
+ 
     </div>
   );
 }

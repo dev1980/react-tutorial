@@ -16,6 +16,17 @@ code {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  border: 2px solid orange;
-  height: 100vh;
+}
+
+.card-flex {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  background-color: steelblue;
+  color: #fff;
+  padding: 12px;
+  border-radius: 12px;
 }
