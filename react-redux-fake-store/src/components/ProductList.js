@@ -20,7 +20,7 @@ const dispatch = useDispatch();
     }, [])
     
   return (
-    <div className='productList'> 
+    <div className='productList container'> 
         <ProductCard />
     </div>
   )

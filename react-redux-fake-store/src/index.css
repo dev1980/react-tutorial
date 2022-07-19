@@ -34,7 +34,7 @@ img {
   height: 240px;
 }
 .card {
- width: 25%;
+ width: 320px;
   border: 2px solid rgb(82, 68, 68);
   border-radius: 6px;
 
@@ -53,4 +53,16 @@ button {
   margin: 0 auto;
   margin-bottom: 8px;
   cursor: pointer;
+}
+
+.cardDetails {
+  display: flex;
+  gap: 24px;
+  border: 1px solid steelblue;
+  padding: 12px;
+}
+
+.image {
+ width: 650px;
+
 }
