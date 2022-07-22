@@ -1,0 +1,19 @@
+.about-page  {
+    background-color: #232325;
+    color: #fff;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-page__h1 {
+    font-size: 68px;
+}
+
+.about-page__text {
+font-size: 21px;
+color:  #BE3144;
+}
